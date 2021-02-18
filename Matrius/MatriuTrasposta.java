@@ -5,7 +5,8 @@ public class MatriuTrasposta {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	    int files, columnes, maxElement = 0;
+	    int files, columnes;
+        int maxElement = 0;
 	    Scanner teclat = new Scanner(System.in);
 	    
 		System.out.print("Entra la quantitat de files: ");
