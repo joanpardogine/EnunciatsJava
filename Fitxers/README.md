@@ -7,9 +7,11 @@
 [EscripturaFitxer](EscripturaFitxer.java)
 
 
-1.  Enunciat
+ 1. **Enunciat**
 
-Aquest programa es dedicarà a sumar de manera automàtica les "cel·les" d'un fitxer CSV (comma separated value). Un fitxer CSV és un fitxer de text amb un format molt concret: els seus valors estan separats per comes. És un format estàndard.
+Aquest programa es dedicarà a sumar de manera automàtica els valor d'un fitxer **CSV** (**comma separated value**). 
+> Un fitxer **CSV** és un *fitxer de text* amb un format molt concret: els seus valors estan separats per comes. És un format estàndard.
+
 ### Contingut del fitxer:
 ```
 34,2
@@ -27,10 +29,13 @@ Aquest programa es dedicarà a sumar de manera automàtica les "cel·les" d'un f
 8,0,8
 ```
 
-    1. Enunciat
+
+ 1. **Enunciat**
+
 
 Escriure un programa que escrigui els **100** primers nombres primers (***primos***) a un arxiu anomenat [numNaturals.txt](numNaturals.txt)
 
+ 1. **Enunciat**
 
 Escriure un programa que donada una matriu de N x M nombres sencers per l'usuari, escriure a un arxiu la matriu de forma lineal.
 Exemple:
