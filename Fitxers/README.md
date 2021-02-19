@@ -6,7 +6,7 @@ Exemple de com es llegueix un fitxer amb ***Java***.
 
 [LecturaFitxer](LecturaFitxer.java)
 
-Exemple de com s'esciur a un fitxer amb ***Java***.
+Exemple de com s'esciure a un fitxer amb ***Java***.
 
 [EscripturaFitxer](EscripturaFitxer.java)
 

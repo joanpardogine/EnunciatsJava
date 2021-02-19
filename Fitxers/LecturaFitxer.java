@@ -26,10 +26,10 @@ public class LecturaFitxer {
         // Mostrem la línia, que acabem de llegir per pantalla
         System.out.println(linia);
       }
-    } catch (Exception ex) {
+    } catch (Exception exepcioRebuda) {
       // Si tenim errors amb el fitxer que gestionem
       // mostrem el missatge d'error rebut.
-      System.out.println("Missatge d'error: " + ex.getMessage());
+      System.out.println("Missatge d'error: " + exepcioRebuda.getMessage());
     }
   }
 }
