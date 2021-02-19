@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class EnunQtatDivisors {
 
 	public static void main(String[] args) {
-	// TODO Auto-generated method stub
+	
 		int num, contador = 0;
 		String missatge = ("Introdueix el"
 				+ " número d'elements");

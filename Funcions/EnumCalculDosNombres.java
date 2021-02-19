@@ -61,7 +61,7 @@ public class EnumCalculDosNombres {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Scanner teclat = new Scanner(System.in);
 		int nombre1, nombre2, resultat;

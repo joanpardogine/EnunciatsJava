@@ -11,7 +11,7 @@ public class EnunTornaDoble {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		int nombre, nombreDoble;
 		Scanner teclat = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class EnunTornaDoble {
 		nombreDoble = tornaDoble(nombre);
 		
 		System.out.print("El dobre de " + nombre +
-				" és " + nombreDoble);
+				" ï¿½s " + nombreDoble);
 		
 		teclat.close();
 	}

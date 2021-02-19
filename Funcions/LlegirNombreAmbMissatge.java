@@ -12,13 +12,13 @@ public class LlegirNombreAmbMissatge {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int numeroLlegit1, numeroLlegit2;
 
 		numeroLlegit1 = llegirEnterAmbMissatge("Introdueix un nombre: ");
 		numeroLlegit2 = llegirEnterAmbMissatge("Introdueix un altre nombre: ");
 
-		System.out.println("El primer nombre que has introduït és: " + numeroLlegit1
-				+ "El segon nombre que has introduït és: " + numeroLlegit2);
+		System.out.println("El primer nombre que has introduï¿½t ï¿½s: " + numeroLlegit1
+				+ "El segon nombre que has introduï¿½t ï¿½s: " + numeroLlegit2);
 		}
 }

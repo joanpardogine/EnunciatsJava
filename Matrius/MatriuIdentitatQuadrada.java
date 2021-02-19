@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MatriuIdentitatQuadrada {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 	
 		int files, columnes;
 	    Scanner teclat = new Scanner(System.in);

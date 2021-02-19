@@ -35,7 +35,7 @@ public class EnunEsPrimer {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
         Scanner teclat = new Scanner(System.in);
 
        boolean esPrimer;

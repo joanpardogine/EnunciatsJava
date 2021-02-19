@@ -23,7 +23,7 @@ public class TornaMaxIMin {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		
 		Scanner teclat = new Scanner(System.in);
@@ -37,12 +37,12 @@ public class TornaMaxIMin {
 		nombre2 = teclat.nextInt();
 		
 		// nombreMesGran = tornaMaxim(nombre1, nombre2);
-		// System.out.println("El nombre més gran és " + nombreMesGran);
-		System.out.println("El nombre més gran és " + tornaMaxim(nombre1, nombre2));
+		// System.out.println("El nombre mï¿½s gran ï¿½s " + nombreMesGran);
+		System.out.println("El nombre mï¿½s gran ï¿½s " + tornaMaxim(nombre1, nombre2));
 		
 		// nombreMesPetit = tornaMimim(nombre1, nombre2);
-		// System.out.println("El nombre més petit és " + nombreMesPetit);
-		System.out.println("El nombre més petit és " + tornaMimim(nombre1, nombre2));
+		// System.out.println("El nombre mï¿½s petit ï¿½s " + nombreMesPetit);
+		System.out.println("El nombre mï¿½s petit ï¿½s " + tornaMimim(nombre1, nombre2));
 		teclat.close();
 	}
 

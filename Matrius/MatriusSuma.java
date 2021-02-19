@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MatriusSuma {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner teclat = new Scanner(System.in);
 		int files = 0;
 		int columnes = 0;

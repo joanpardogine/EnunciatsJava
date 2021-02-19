@@ -11,21 +11,21 @@ public class MostraValorsCompressos {
 		return nombreLlegit;
 	}
 	
-	/* Fer una funció que rebrà dos nombres (dos paràmetres)
+	/* Fer una funciï¿½ que rebrï¿½ dos nombres (dos parï¿½metres)
 	 * i escrigui per pantalla tots els nombres compresos
 	 * entre els dos nombres rebuts (amb els dos nombres
-	 * inclosos). La funció no retorna res.
+	 * inclosos). La funciï¿½ no retorna res.
 	 * */
 	public static void mostraCompresos(int primerNombre, int segonNombre) {
 		System.out.println("Els nombres compressos entre " + primerNombre
-				+ " i " + segonNombre + " són:");
+				+ " i " + segonNombre + " sï¿½n:");
 		for (int i = primerNombre; i <= segonNombre; i++) {
 			System.out.println(i);
 		}
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int numeroLlegit1, numeroLlegit2;
 		teclat = new Scanner(System.in);
 

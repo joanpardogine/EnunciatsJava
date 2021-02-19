@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MatriuMaximElement {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// for per introduir dades
 	    int files, columnes, maxElement = 0;
 	    Scanner teclat = new Scanner(System.in);
@@ -34,7 +34,7 @@ public class MatriuMaximElement {
 				};
 			}
 		}
-		System.out.print("El màxim element de la matriu és: " + maxElement);
+		System.out.print("El mï¿½xim element de la matriu ï¿½s: " + maxElement);
 		teclat.close();
 	}
 

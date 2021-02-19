@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class NombresRomans {
-	// Definició de constants GLOBALS
+	// Definiciï¿½ de constants GLOBALS
 	static final int I = 1;
 	static final int V = 5;
 	static final int X = 10;
@@ -17,7 +17,7 @@ public class NombresRomans {
 	}
 	
 	public static String llegirCadenaAmbMissatge(String missAMostrar) {
-		// Definició varialbes LOCALS
+		// Definiciï¿½ varialbes LOCALS
 		String cadenaLlegida;
 		Scanner teclatCadena = new Scanner(System.in);
 		System.out.print(missAMostrar);
@@ -27,7 +27,7 @@ public class NombresRomans {
 	}
 
 	public static int[] tornaCadenaNumRomans(String cadEnRoma) {
-		// Definició varialbes LOCALS
+		// Definiciï¿½ varialbes LOCALS
 		int[] arrayEnterRoma = new int[cadEnRoma.length()];
 		char lletraActual;
 		
@@ -76,7 +76,7 @@ public class NombresRomans {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		String cadenaEnRomans;
 		int nombreEnArabic = 0;
@@ -95,7 +95,7 @@ public class NombresRomans {
 		System.out.print("El nombre " 
 				+ cadenaEnRomans 
 				+ " que has entrat\n"
-				+ " en nombres Romans és "
+				+ " en nombres Romans ï¿½s "
 				+ nombreEnArabic);
 
 	}

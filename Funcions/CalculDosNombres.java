@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class CalculDosNombres {
 	/*
 	 * Escriure un programa que demani dos nombres i
-	 * l'operació a realitzar sobre els dos nombres.
+	 * l'operaciï¿½ a realitzar sobre els dos nombres.
 	 * En finalitzar, ha de mostrar el resultat de 
-	 * l'operació matemàtica realitzada. El primer
-	 *  nombre entrat serà el primer operand i el
-	 * segon nombre el segon operand. Començat plantejament!
-	 * L'operació pot ser:
+	 * l'operaciï¿½ matemï¿½tica realitzada. El primer
+	 *  nombre entrat serï¿½ el primer operand i el
+	 * segon nombre el segon operand. Comenï¿½at plantejament!
+	 * L'operaciï¿½ pot ser:
 	 * +   	suma
 	 * -   	resta
-	 * /	divisió sencera
-	 * %	mòdul (residu de la divisió)
-	 * *	multiplicació
+	 * /	divisiï¿½ sencera
+	 * %	mï¿½dul (residu de la divisiï¿½)
+	 * *	multiplicaciï¿½
 	 * ^	elevat
-	 * Heu de fer una funció per cada operació.
+	 * Heu de fer una funciï¿½ per cada operaciï¿½.
 	 * */
 	
 	public static int suma(int num1, int num2) {
@@ -64,7 +64,7 @@ public class CalculDosNombres {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Scanner teclat = new Scanner(System.in);
 		int nombre1, nombre2, resultat;
@@ -84,13 +84,13 @@ public class CalculDosNombres {
 		System.out.print("Escriu el segon dels nombres: ");
 		nombre2 = teclat.nextInt();
 		
-		System.out.print("Escriu la operació que vols fer" +
+		System.out.print("Escriu la operaciï¿½ que vols fer" +
 				"amb els dos nombres:\n" +
 				" +  suma\n" + 
 				" -  resta\n" + 
-				" /  divisió sencera\n" + 
-				" %  mòdul (residu de la divisió)\r\n" + 
-				" *  multiplicació\r\n" + 
+				" /  divisiï¿½ sencera\n" + 
+				" %  mï¿½dul (residu de la divisiï¿½)\r\n" + 
+				" *  multiplicaciï¿½\r\n" + 
 				" ^  elevat\n");
 		operacio = teclat.next().charAt(0);
 		
@@ -101,7 +101,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " és "
+			+ " ï¿½s "
 			+ resultat;
 			break;
 			
@@ -111,7 +111,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " és "
+			+ " ï¿½s "
 			+ resultat;
 			break;
 			
@@ -121,7 +121,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " és "
+			+ " ï¿½s "
 			+ resultat;
 			break;
 			
@@ -131,17 +131,17 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " és "
+			+ " ï¿½s "
 			+ resDecimal;
 			break;
 			
 		case '%':
 			resultat = modul(nombre1,nombre2);
-			resText = "El mòdul (la resta) de dividr "
+			resText = "El mï¿½dul (la resta) de dividr "
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " és "
+			+ " ï¿½s "
 			+ resultat;
 			break;
 			
@@ -151,7 +151,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " a "
 			+ nombre2
-			+ " és "
+			+ " ï¿½s "
 			+ resDecimal;
 			break;
 			
@@ -162,7 +162,7 @@ public class CalculDosNombres {
 		}
 		teclat.close();
 		if (resDecimal == -1) {
-			System.out.print("La operació no es pot fer!");
+			System.out.print("La operaciï¿½ no es pot fer!");
 		} else {
 			System.out.print(resText);
 		}

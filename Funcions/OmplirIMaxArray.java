@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class OmplirIMaxArray {
 /* *Dissenyar dues funcions:
-omplir_taula(): funció per omplir una taula (array)
-de n elements. Els paràmetres que rebrà la funció són
-la taula (array) a omplir i un enter que és el nombre
-d'elements. La funció no retorna res.
-maxim_taula(): funció que calculi i retorni el nombre
-més gran (màxim). El paràmetre que rebrà la funció és
-la taula (array). I retornarà el màxim (el nombre més
+omplir_taula(): funciï¿½ per omplir una taula (array)
+de n elements. Els parï¿½metres que rebrï¿½ la funciï¿½ sï¿½n
+la taula (array) a omplir i un enter que ï¿½s el nombre
+d'elements. La funciï¿½ no retorna res.
+maxim_taula(): funciï¿½ que calculi i retorni el nombre
+mï¿½s gran (mï¿½xim). El parï¿½metre que rebrï¿½ la funciï¿½ ï¿½s
+la taula (array). I retornarï¿½ el mï¿½xim (el nombre mï¿½s
  gran) de la taula que li hem passat.
   */
 	public static void omplir_taula(int[] arrayRebut, int nombreElements) {
@@ -33,7 +33,7 @@ la taula (array). I retornarà el màxim (el nombre més
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner teclat = new Scanner(System.in);
 		int midaTaula, valorMaxTaula;
 		
@@ -45,7 +45,7 @@ la taula (array). I retornarà el màxim (el nombre més
 	
 		valorMaxTaula = maxim_taula(taulaAOmplir);
 		
-		System.out.print("El valor màxim de la taula és: " + valorMaxTaula);
+		System.out.print("El valor mï¿½xim de la taula ï¿½s: " + valorMaxTaula);
 		
 		teclat.close();
 	} // FINAL public static void main(String[] args)
