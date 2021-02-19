@@ -2,14 +2,18 @@
 
 ## Fitxers amb exemples:
 
+Exemple de com es llegueix un fitxer amb ***Java***.
+
 [LecturaFitxer](LecturaFitxer.java)
+
+Exemple de com s'esciur a un fitxer amb ***Java***.
 
 [EscripturaFitxer](EscripturaFitxer.java)
 
 
- 1. **Enunciat**
+### **1.** **Enunciat**
 
-Aquest programa es dedicarà a sumar de manera automàtica els valor d'un fitxer **CSV** (**comma separated value**). 
+Escriure un programa que sumi de manera automàtica els valor d'un fitxer **CSV** (**comma separated value**).
 > Un fitxer **CSV** és un *fitxer de text* amb un format molt concret: els seus valors estan separats per comes. És un format estàndard.
 
 ### Contingut del fitxer:
@@ -30,14 +34,13 @@ Aquest programa es dedicarà a sumar de manera automàtica els valor d'un fitxer
 ```
 
 
- 1. **Enunciat**
-
+### **2.** **Enunciat**
 
 Escriure un programa que escrigui els **100** primers nombres primers (***primos***) a un arxiu anomenat [numNaturals.txt](numNaturals.txt)
 
- 1. **Enunciat**
+### **3.** **Enunciat**
 
-Escriure un programa que donada una matriu de N x M nombres sencers per l'usuari, escriure a un arxiu la matriu de forma lineal.
+Escriure un programa que donada una matriu de **```n```** x **```m```** nombres sencers per l'usuari, escriure a un arxiu la matriu de forma lineal.
 Exemple:
 **array**|[0]|[1]|[2]|
 ----|----|----|----|

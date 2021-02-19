@@ -15,12 +15,12 @@ public class LecturaFitxer {
 			// Llegim el contingut del fitxer
 			System.out.println("... llegim el contingut del fitxer ...");
 			puntFitxer = new Scanner(fitxer);
-			// Llegim linea a línia fitxer
+			// Llegim linea a lÃ­nia fitxer
 			while (puntFitxer.hasNextLine()) {
 				String linia = puntFitxer.nextLine();
-				// Guardem la línia a un String
+				// Guardem la lÃ­nia a un String
 				System.out.println(linia);
-				// Mostrem la línia per pantalla
+				// Mostrem la lÃ­nia per pantalla
 			}
 		} catch (Exception ex) {
 			// Si tenim errors amb el fitxer que gestionem
