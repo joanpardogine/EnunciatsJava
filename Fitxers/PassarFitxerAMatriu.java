@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 /*
  * Escriure un programa que donat el contingut d'un arxiu,
- * el classifiqui dins d'una matriu. La primera línia del
- * fitxer conté la mida de la matriu, files i columnes,
+ * el classifiqui dins d'una matriu. La primera lÃ­nia del
+ * fitxer contÃ© la mida de la matriu, files i columnes,
  * separat per un coixinet (#). I a la segona fila,
- * conté els valors de totes les cel·les de la matriu.
+ * contÃ© els valors de totes les celÂ·les de la matriu.
  * Contingut del fitxer:
  *    5#4
  *    1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,G,H,I,J,K
@@ -22,12 +22,12 @@ public class PassarFitxerAMatriu {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Fitxer que volem llegir
-		String nomFitxer = "fitxerAmMatriu.txt";
+		String nomFitxer = "fitxerAmbMatriu.txt";
 		String arrayFilesColumnes[] = new String [2];
 		String arrayValorsMatriu[];
 		
-		// arrayFilesColumnes[0] conté les files
-		// arrayFilesColumnes[1] conté les columnes
+		// arrayFilesColumnes[0] contÃ© les files
+		// arrayFilesColumnes[1] contÃ© les columnes
 		int files, columnes;
 		
 		File fitxer = new File("lib/" 
@@ -40,14 +40,14 @@ public class PassarFitxerAMatriu {
 			System.out.println("... llegim el "
 					+ "contingut del fitxer ...");
 			puntFitxer = new Scanner(fitxer);
-			// Llegim la primea linea que conté les files i columnes
+			// Llegim la primea linea que contÃ© les files i columnes
 			String linia = puntFitxer.nextLine();
 
 			arrayFilesColumnes = linia.split("#");
 			files = Integer.parseInt(arrayFilesColumnes[0]);
 			columnes = Integer.parseInt(arrayFilesColumnes[1]);
 			char matriu[][] = new char [files][columnes];
-			// Llegim la segona linea que conté tots els valors de la matriu.
+			// Llegim la segona linea que contÃ© tots els valors de la matriu.
 			
 			linia = puntFitxer.nextLine();			
 			arrayValorsMatriu = linia.split(",");
