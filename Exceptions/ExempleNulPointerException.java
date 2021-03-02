@@ -3,8 +3,9 @@ public class ExempleNulPointerException {
   */
 
   public static void main(String[] args) {
-    String cadena;
+    String cadena = "";
     int numero = Integer.parseInt(cadena);
+    System.out.println(numero);
   }
 
   /* SORTIDA 

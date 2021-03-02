@@ -19,7 +19,6 @@ public class EscriureEls100PrimersPrimos {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String nomFitxer = "numNaturals.txt";
 		int comptaPrimers = 0;
 		int comptaNombres = 2;

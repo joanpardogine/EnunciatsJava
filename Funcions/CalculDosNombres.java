@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class CalculDosNombres {
 	/*
 	 * Escriure un programa que demani dos nombres i
-	 * l'operaci� a realitzar sobre els dos nombres.
+	 * l'operació a realitzar sobre els dos nombres.
 	 * En finalitzar, ha de mostrar el resultat de 
-	 * l'operaci� matem�tica realitzada. El primer
-	 *  nombre entrat ser� el primer operand i el
-	 * segon nombre el segon operand. Comen�at plantejament!
-	 * L'operaci� pot ser:
+	 * l'operació matemàtica realitzada. El primer
+	 *  nombre entrat serà el primer operand i el
+	 * segon nombre el segon operand. Comentat plantejament!
+	 * L'operació pot ser:
 	 * +   	suma
 	 * -   	resta
-	 * /	divisi� sencera
-	 * %	m�dul (residu de la divisi�)
-	 * *	multiplicaci�
+	 * /	divisió sencera
+	 * %	mòdul (residu de la divisió)
+	 * *	multiplicació
 	 * ^	elevat
-	 * Heu de fer una funci� per cada operaci�.
+	 * Heu de fer una funció per cada operació.
 	 * */
 	
 	public static int suma(int num1, int num2) {
@@ -84,13 +84,13 @@ public class CalculDosNombres {
 		System.out.print("Escriu el segon dels nombres: ");
 		nombre2 = teclat.nextInt();
 		
-		System.out.print("Escriu la operaci� que vols fer" +
+		System.out.print("Escriu la operació que vols fer" +
 				"amb els dos nombres:\n" +
 				" +  suma\n" + 
 				" -  resta\n" + 
-				" /  divisi� sencera\n" + 
-				" %  m�dul (residu de la divisi�)\r\n" + 
-				" *  multiplicaci�\r\n" + 
+				" /  divisió sencera\n" + 
+				" %  mòdul (residu de la divisió)\r\n" + 
+				" *  multiplicació\r\n" + 
 				" ^  elevat\n");
 		operacio = teclat.next().charAt(0);
 		
@@ -101,7 +101,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " �s "
+			+ " és "
 			+ resultat;
 			break;
 			
@@ -111,7 +111,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " �s "
+			+ " és "
 			+ resultat;
 			break;
 			
@@ -121,7 +121,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " �s "
+			+ " és "
 			+ resultat;
 			break;
 			
@@ -131,17 +131,17 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " �s "
+			+ " és "
 			+ resDecimal;
 			break;
 			
 		case '%':
 			resultat = modul(nombre1,nombre2);
-			resText = "El m�dul (la resta) de dividr "
+			resText = "El mòdul (la resta) de dividr "
 			+ nombre1
 			+ " i "
 			+ nombre2
-			+ " �s "
+			+ " és "
 			+ resultat;
 			break;
 			
@@ -151,7 +151,7 @@ public class CalculDosNombres {
 			+ nombre1
 			+ " a "
 			+ nombre2
-			+ " �s "
+			+ " és "
 			+ resDecimal;
 			break;
 			
@@ -162,7 +162,7 @@ public class CalculDosNombres {
 		}
 		teclat.close();
 		if (resDecimal == -1) {
-			System.out.print("La operaci� no es pot fer!");
+			System.out.print("La operació no es pot fer!");
 		} else {
 			System.out.print(resText);
 		}

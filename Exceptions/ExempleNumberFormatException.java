@@ -5,6 +5,7 @@ public class ExempleNumberFormatException {
   public static void main(String[] args) {
     String cadena="  12 ";
     int nombre = Integer.parseInt(cadena);
+    System.out.println(nombre);
   }
 
   /* SORTIDA 

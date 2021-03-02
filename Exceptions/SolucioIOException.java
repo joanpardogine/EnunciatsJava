@@ -7,12 +7,14 @@ public class SolucioIOException {
   public static void main(String[] args) {
 
     int nombre;
+    nombre = 3;
     
     try {
       nombre = System.in.read();
     } catch (IOException ex) {
         System.out.println(" Error = " + ex);
     }
+    System.out.println(nombre);
   }
 
   /* SORTIDA 
