@@ -4,7 +4,7 @@ En aquest repositori aniré penjant les solucions als enunciats fets a classe.
 
 ## Arrays
 
-[BuscaParaules](BuscaParaules.java)
+[BuscaParaules](./Arrays/BuscaParaules.java)
 
 ## Matrius
 [ElsQuatrePrimersEnunciatsDeMatrius](Matrius/ElsQuatrePrimersEnunciatsDeMatrius.java)
@@ -26,39 +26,39 @@ En aquest repositori aniré penjant les solucions als enunciats fets a classe.
 
 ## Funcions
 
-[CalculDosNombres](CalculDosNombres.java)
+[CalculDosNombres](Funcions/CalculDosNombres.java)
 
-[CalculDosNombresEnBucle](CalculDosNombresEnBucle.java)
+[CalculDosNombresEnBucle](Funcions/CalculDosNombresEnBucle.java)
 
-[DecimaltoBinari](DecimaltoBinari.java)
+[DecimaltoBinari](Funcions/DecimaltoBinari.java)
 
-[EnumCalculDosNombres](EnumCalculDosNombres.java)
+[EnumCalculDosNombres](Funcions/EnumCalculDosNombres.java)
 
-[EnunEsPrimer](EnunEsPrimer.java)
+[EnunEsPrimer](Funcions/EnunEsPrimer.java)
 
-[EnunQtatDivisors](EnunQtatDivisors.java)
+[EnunQtatDivisors](Funcions/EnunQtatDivisors.java)
 
-[EnunTornaDoble](EnunTornaDoble.java)
+[EnunTornaDoble](Funcions/EnunTornaDoble.java)
 
-[J016_4NumRomans](J016_4NumRomans.java)
+[J016_4NumRomans](Funcions/J016_4NumRomans.java)
 
-[LlegirNombreAmbMissatge](LlegirNombreAmbMissatge.java)
+[LlegirNombreAmbMissatge](Funcions/LlegirNombreAmbMissatge.java)
 
-[MostraValorsCompressos](MostraValorsCompressos.java)
+[MostraValorsCompressos](Funcions/MostraValorsCompressos.java)
 
-[NombresRomans](NombresRomans.java)
+[NombresRomans](Funcions/NombresRomans.java)
 
-[OmplirIMaxArray](OmplirIMaxArray.java)
+[OmplirIMaxArray](Funcions/OmplirIMaxArray.java)
 
-[TeoriaNumRomans](TeoriaNumRomans.java)
+[TeoriaNumRomans](Funcions/TeoriaNumRomans.java)
 
-[TornaMaxIMin](TornaMaxIMin.java)
+[TornaMaxIMin](Funcions/TornaMaxIMin.java)
 
 
 ## Fitxers
 
-[EscripturaFitxer](EscripturaFitxer.java)
+[EscripturaFitxer](Fitxers/EscripturaFitxer.java)
 
-[LecturaFitxer](LecturaFitxer.java)
+[LecturaFitxer](Fitxers/LecturaFitxer.java)
 
-[LlegirCsvISumarSenseFuncions](LlegirCsvISumarSenseFuncions.java)
+[LlegirCsvISumarSenseFuncions](Fitxers/LlegirCsvISumarSenseFuncions.java)
