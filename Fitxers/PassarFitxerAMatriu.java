@@ -20,7 +20,7 @@ import java.util.Scanner;
 public class PassarFitxerAMatriu {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// Fitxer que volem llegir
 		String nomFitxer = "fitxerAmbMatriu.txt";
 		String arrayFilesColumnes[] = new String [2];

@@ -56,7 +56,6 @@ public class PassaMatriuAFitxerLinea {
 			try {
 				fitxer.write(filaAmbElements + "\n");
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
@@ -87,7 +86,7 @@ public class PassaMatriuAFitxerLinea {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String cadDemanarFila = "Entra el nombre de files de la matriu: ";
 		String cadDemanarColu = "Entra el nombre de columnes de la matriu: ";
 		int files, columnes;

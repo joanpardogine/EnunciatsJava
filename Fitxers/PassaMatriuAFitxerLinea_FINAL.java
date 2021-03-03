@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 
 public class PassaMatriuAFitxerLinea_FINAL {
   
@@ -92,7 +91,7 @@ public class PassaMatriuAFitxerLinea_FINAL {
   }
   
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
+
     String cadDemanarFila = "Entra el nombre de files de la matriu: ";
     String cadDemanarColu = "Entra el nombre de columnes de la matriu: ";
     int files, columnes;
@@ -110,7 +109,7 @@ public class PassaMatriuAFitxerLinea_FINAL {
       mostrarMatriu(matriuEnters);
       for (int i=0; i<matriuEnters.length; i++) {
         fila = obteFilaMatriu(matriuEnters, i);
-        escriuFilaFitxer(fila, fitxer);        
+        escriuFilaFitxer(fila, nomFitxer);        
       }
       
       

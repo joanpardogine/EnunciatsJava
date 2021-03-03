@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class MatriusTextParaules {
 
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
+
     String arrayInicial[] = new String[6];
 
     int comptador;
