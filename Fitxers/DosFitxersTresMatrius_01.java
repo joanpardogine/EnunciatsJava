@@ -143,18 +143,24 @@ public class DosFitxersTresMatrius_01 {
    }
    
    public static void main(String[] args) {
+    /* Crear un fitxer (matIntroUsuari.txt) on cada línia
+     * d'aquest fitxer serà cadascuna de les files d'una
+     * matriu quadrada (files = columnes) introduïda per
+     * l'usuari. (DosFitxersTresMatrius.java)     */
       int files, columnes;
-      String nomFitxer1 = "matIntroUsuari.txt";
+      String nomFitxer1 = "./Fitxers/lib/matIntroUsuari.txt"; // Visual Studio Code
+      // String nomFitxer1 = "lib/matIntroUsuari.txt"; // Eclipse
       files = tornaFilesColumnesMatriuQuadrada();
       columnes = files;  // degut a que és una matriu quadrada (files=columnes)
 
       int matriu[][] = new int [files][columnes];
-
       afegirValorsMatriu(matriu);
-      // mostrarMatriu(matriu);
+      System.out.println("Mostra matriu!");
+      mostrarMatriu(matriu);
+      System.out.println("FINAL Mostra matriu!");
+      escriuMatriuAFitxer(matriu, nomFitxer1);
 
-      escriuMatriuAFitxer(matriu, "lib/" + nomFitxer1);
-      mostrarMissatgePerPantalla("Final!");
+      mostrarMissatgePerPantalla("Final Part 1!");
    }
 
 }

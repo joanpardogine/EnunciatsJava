@@ -2,11 +2,11 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-public class DosFitxersTresMatrius_02 {
+public class DosFitxersTresMatrius_03 {
 
    public static Scanner teclat = new Scanner(System.in);
 
-   public static void mostrarMissatgePerPantallaSegonsSaltLinea(String cadena, boolean ambSalt) {
+   public static void mostrarMissatgePerPantallaSegonsSaltlinia(String cadena, boolean ambSalt) {
       if (ambSalt==true) {
          System.out.println(cadena);
       } else {
@@ -38,7 +38,7 @@ public class DosFitxersTresMatrius_02 {
     try {
       File fitxer = new File(nomFitxer);
       Scanner puntFitxer = new Scanner(fitxer);
-      while (puntFitxer.hasNextLine()) { //Mentre hi hagi una linea per sota, no sortirem del while
+      while (puntFitxer.hasNextLine()) { //Mentre hi hagi una linia per sota, no sortirem del while
         linia = puntFitxer.nextLine();
         comptador++;
       }
@@ -58,19 +58,19 @@ public class DosFitxersTresMatrius_02 {
       int files,columnes;
 
       do {
-         mostrarMissatgePerPantallaSegonsSaltLinea("Entra la quantitat de files (0 per sortir): ", false);
+         mostrarMissatgePerPantallaSegonsSaltlinia("Entra la quantitat de files (0 per sortir): ", false);
          files = llegirEnterTeclat();
          
-         mostrarMissatgePerPantallaSegonsSaltLinea("Entra la quantitat de columnes (0 per sortir): ", false);
+         mostrarMissatgePerPantallaSegonsSaltlinia("Entra la quantitat de columnes (0 per sortir): ", false);
          columnes = llegirEnterTeclat();
          
          if (files == 0 || columnes == 0) {
-            mostrarMissatgePerPantallaSegonsSaltLinea("Veig que vols sortir.\nAdeu!", true);
+            mostrarMissatgePerPantallaSegonsSaltlinia("Veig que vols sortir.\nAdeu!", true);
             break;
          }
 
          if (files != columnes) {
-            mostrarMissatgePerPantallaSegonsSaltLinea("La quantitat de columnes "
+            mostrarMissatgePerPantallaSegonsSaltlinia("La quantitat de columnes "
                + "i files cal que siguin iguals!\nTorna-hi!", true);
          } 
       } while (files != columnes);
@@ -116,7 +116,7 @@ public class DosFitxersTresMatrius_02 {
       // boolean esEnter;
       for (int fila=0;fila<matriuRebuda.length;fila++) {
          for (int columnes=0;columnes<matriuRebuda[fila].length;columnes++) {
-            mostrarMissatgePerPantallaSegonsSaltLinea("Introdueix valor posició " 
+            mostrarMissatgePerPantallaSegonsSaltlinia("Introdueix valor posició " 
                + fila
                + ","
                + columnes
@@ -134,17 +134,17 @@ public class DosFitxersTresMatrius_02 {
          FileWriter fitxer = new FileWriter(nomFitxer);
          // Escribim les línies al fitxer
          // LLegim valors d'una matriu
-         String linea;
+         String linia;
          
          for (int fila=0;fila<matriuRebuda.length;fila++) {
-            linea="";
+            linia="";
             for (int columna=0; columna<matriuRebuda[fila].length;columna++) {
-               linea = linea + matriuRebuda[fila][columna];
+               linia = linia + matriuRebuda[fila][columna];
                if (columna<matriuRebuda[fila].length-1) {
-                  linea = linea + "#";
+                  linia = linia + "#";
                }
             }
-            fitxer.write(linea + "\n");
+            fitxer.write(linia + "\n");
          }
          fitxer.close();
       } catch (Exception ex) {
@@ -217,13 +217,41 @@ public class DosFitxersTresMatrius_02 {
     return matriuATornar;
    }
 
-
+   public static void escriuMatriusIntercaladesAFitxer (int[][] matriuRebuda1, int[][] matriuRebuda2, String nomFitxer) {
+      // Per controlar els errors amb el fitxer a gestionar
+      try {   
+         FileWriter fitxer = new FileWriter(nomFitxer);
+         // Escribim les línies al fitxer
+         // LLegim valors d'una matriu
+         String linia1 = "", linia2 = "";
+         
+         for (int fila=0;fila<matriuRebuda1.length;fila++) {
+            linia1="";
+            linia2="";
+            for (int columna=0; columna<matriuRebuda1[fila].length;columna++) {
+               linia1 = linia1 + matriuRebuda1[fila][columna];
+               linia2 = linia2 + matriuRebuda2[fila][columna];
+               if (columna<matriuRebuda1[fila].length-1) {
+                  linia1 = linia1 + "#";
+                  linia2 = linia2 + "#";
+               }
+            }
+            fitxer.write(linia1 + "\n");
+            fitxer.write(linia2 + "\n");
+         }
+         fitxer.close();
+      } catch (Exception ex) {
+         // Si tenim errors amb el fitxer que gestionem
+         // mostrem el missatge d'error rebut.
+         System.out.println("Missatge d'error: " + ex.getMessage());
+      }
+   }
 
    public static void main(String[] args) {
-     /* Crear un fitxer (matIntroUsuari.txt) on cada línia
-     * d'aquest fitxer serà cadascuna de les files d'una
-     * matriu quadrada (files = columnes) introduïda per
-     * l'usuari. (DosFitxersTresMatrius.java)     */
+      /* Crear un fitxer (matIntroUsuari.txt) on cada línia
+      * d'aquest fitxer serà cadascuna de les files d'una
+      * matriu quadrada (files = columnes) introduïda per
+      * l'usuari. (DosFitxersTresMatrius.java)     */
       int files, columnes;
 
       String nomFitxer1 = "./Fitxers/lib/matIntroUsuari.txt"; // Visual Studio Code
@@ -240,22 +268,29 @@ public class DosFitxersTresMatrius_02 {
       escriuMatriuAFitxer(matriu, nomFitxer1);
 
       mostrarMissatgePerPantalla("Final Part 1!");
-      
+
       /* Seguidament recuperar la informació del fitxer per
       * guardar-la sobre una segona matriu trasposta, és a
       * dir, les files seran les columnes i les columnes les files. */
       int matATrasposar[][] = new int [files][columnes];
       int matTras[][] = new int [files][columnes];
-      
+
       matATrasposar = llegeixMatriuDesDeFitxer(nomFitxer1);
       matTras = transposaMatriuQuadrada(matATrasposar);
-      
+
       System.out.println("Mostra matTras!");
       mostrarMatriu(matTras);
       System.out.println("FINAL Mostra matTras!");
-      
+
       mostrarMissatgePerPantalla("Final Part 2!");
+      /* I per últim, generar un segon fitxer (matIntercalades.txt),
+       * que contindrà totes dues matrius intercalant les seves files, */
       
+      String nomFitxer2 = "./Fitxers/lib/matIntercalades.txt"; // Visual Studio Code
+      // String nomFitxer2 = "lib/matIntercalades.txt"; // Eclipse
+
+      escriuMatriusIntercaladesAFitxer(matriu, matTras, nomFitxer2);
+      mostrarMissatgePerPantalla("Final Part 3!");
    }
 
 }
