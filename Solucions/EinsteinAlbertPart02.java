@@ -2,10 +2,8 @@ import java.io.File;
 import java.util.Scanner;
 
 public class EinsteinAlbertPart02 {
-    // EinsteinAlbertPart02
-    
-    
-    public static boolean conteRepetits(String[] cadenaRebuda){
+
+   public static boolean conteRepetits(String[] cadenaRebuda){
         boolean hiHaRepetit = false;
         String cadenaAComparar = "";
         for (int i=0; i < cadenaRebuda.length; i++){
@@ -13,6 +11,7 @@ public class EinsteinAlbertPart02 {
             for (int j=i+1; j < cadenaRebuda.length; j++){
                 if( cadenaAComparar.equals(cadenaRebuda[j]) ){ // si la cadenaAComparar =  cadenaRebuda[j]
                     hiHaRepetit = true;
+                    System.out.print("igual " + i + " - " + j);
                     break;
                 }
             }
@@ -59,7 +58,7 @@ public class EinsteinAlbertPart02 {
         //  cadenaAComparar = "2"
         // cadena[i+1] = "3";
         
-        String nomFitxer = "File1";
+        String nomFitxer = "./Solucions/File1";
         boolean teRepetits = false;
         String linia;
         String[] arrayCadenes;
@@ -107,6 +106,5 @@ public class EinsteinAlbertPart02 {
             // mostrem el missatge d'error rebut.
             System.out.println("Missatge d'error: " + exepcioRebuda.getMessage());
        }
-
      }
 }
