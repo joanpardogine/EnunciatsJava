@@ -7,7 +7,7 @@ public class LecturaFitxer {
 
     // Creem una variable amb el nom del fitxer que volem llegir
     String nomFitxer = "./Fitxers/lib/fitxerLlegir.txt"; // Visual Studio Code
-    // String nomFitxer = ""lib/fitxerLlegir.txt"; // Eclipse
+    // String nomFitxer = "lib/fitxerLlegir.txt"; // Eclipse
 
     // Creem una variable enllaçada amb el fitxer que volem llegir
     File fitxer = new File(nomFitxer);
