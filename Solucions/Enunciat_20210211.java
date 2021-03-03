@@ -244,7 +244,7 @@ Fes servir totes les funcions que puguis.
       
       mostrarMissatgePerPantallaSegonsSaltLinea("Vols acabar (S/N): ", false);
       perAcabar = llegirCaracterTeclat();
-      if(perAcabar == 's'){
+      if((perAcabar == 's')||(perAcabar == 'S')){
         volsAcabar = true;
       }
 
