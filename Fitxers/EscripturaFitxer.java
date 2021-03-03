@@ -5,7 +5,8 @@ public class EscripturaFitxer {
   public static void main(String[] args) {
 
     // Creem una variable amb el nom del fitxer que volem llegir
-    String nomFitxer = "fitxerAEscriure.txt";
+    String nomFitxer = "./Fitxers/lib/fitxerAEscriure.txt"; // Visual Studio Code
+    // String nomFitxer = "lib/fitxerAEscriure.txt"; // Eclipse
     
     String[] linies = {
       "En un lugar de la Mancha, de cuyo nombre no quiero acordarme",
@@ -18,7 +19,7 @@ public class EscripturaFitxer {
     
     // Per controlar els errors amb el fitxer a gestionar
     try {  
-      FileWriter fitxer = new FileWriter("lib/" + nomFitxer);
+      FileWriter fitxer = new FileWriter(nomFitxer);
       // Escribim les línies al fitxer
       String linea;     
        for (int i = 0; i<linies.length; i++ ) {
