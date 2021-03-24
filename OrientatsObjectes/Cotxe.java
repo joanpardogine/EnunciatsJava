@@ -22,16 +22,22 @@ public class Cotxe {
 		this.matricula = matricula;
 	}
 	
-	
 	public String getMarca() {
 		return marca;
 	}
+	
 	public String getModel() {
 		return model;
 	}
+	
 	public String getColor() {
 		return color;
 	}
+	
+	public String getMatricula() {
+		return matricula;
+	}
+	
 	public void matricular() {
 		String matricula;
 		int numero = (int) (Math.random() * (9999-1000+1)+1000);
@@ -43,10 +49,10 @@ public class Cotxe {
 	}
 	
 	public void visualitzar() {
-		System.out.println("Marca : " +marca);
-		System.out.println("Model : " +model);
-		System.out.println("Color: " +color);
-		System.out.println("Matricula: " +matricula);
+		System.out.println("      Marca     : " + marca);
+		System.out.println("      Model     : " + model);
+		System.out.println("      Color     : " + color);
+		System.out.println("      Matricula : " + matricula);
 		
 	}
 	
