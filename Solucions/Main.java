@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.util.Scanner;
 
@@ -33,7 +34,7 @@ public class Main {
            // Llegim la línia i la guardem String que anomenem linia
            String linia = puntFitxer.nextLine();
            // Mostrem la línia, que acabem de llegir per pantalla
-           // System.out.println(linia);
+           System.out.println(linia);
            comptador ++;
            
          }
@@ -140,8 +141,8 @@ public class Main {
      }
      
 
-    public static void main(String[] args) {
-        String cadena = "La programació és entretinguda.";
+    public static void main(String[] args) throws FileNotFoundException {
+        // String cadena = "La programació és entretinguda.";
         int[] qtatVocals;
         int[] qtatVocalsMesParaules = new int [6];
         int qtatParaules;

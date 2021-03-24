@@ -39,7 +39,7 @@ public class EinsteinAlbertPart02 {
            // Llegim la línia i la guardem String que anomenem linia
            String linia = puntFitxer.nextLine();
            // Mostrem la línia, que acabem de llegir per pantalla
-           // System.out.println(linia);
+           System.out.println(linia);
            comptador ++;
            
          }
@@ -53,7 +53,7 @@ public class EinsteinAlbertPart02 {
 
     public static void main(String[] args) {
         // Your code here!
-        String cadena[] = {"hola","adeu","3","4","5","6","holar","92","17","13","12","11"};
+        // String cadena[] = {"hola","adeu","3","4","5","6","holar","92","17","13","12","11"};
         //  i = 1
         //  cadenaAComparar = "2"
         // cadena[i+1] = "3";

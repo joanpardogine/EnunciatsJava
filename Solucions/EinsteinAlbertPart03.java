@@ -93,7 +93,7 @@ public class EinsteinAlbertPart03 {
            // Llegim la línia i la guardem String que anomenem linia
            String linia = puntFitxer.nextLine();
            // Mostrem la línia, que acabem de llegir per pantalla
-           // System.out.println(linia);
+           System.out.println(linia);
            comptador ++;
            
          }
