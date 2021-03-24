@@ -120,7 +120,7 @@ public class Main {
 
      
      public static void escriuMatriuAlFitxer(String nomFitxerB, int[][] dades){
-         String liniaAGuardar;
+         String liniaAGuardar = "";
          try {  
             FileWriter fitxer = new FileWriter(nomFitxerB);
             for (int fila=0; fila<dades.length; fila++){
@@ -129,6 +129,7 @@ public class Main {
                 }   
                 fitxer.write(liniaAGuardar);
             }
+            fitxer.close();
             
             
          } catch (Exception exepcioRebuda) {
@@ -152,8 +153,7 @@ public class Main {
         nomFitxEscriure = demanaCadena("Entra el nom del fitxer per llegir (File2)");
 
         qtatLiniesDelFitxer = liniesDelFitxer(nomFitxLlegir);
-        
-        
+
         int filesMatriu, columnesMatriu;
         filesMatriu = qtatLiniesDelFitxer;
         columnesMatriu = 6;
@@ -177,7 +177,7 @@ public class Main {
                 matriu[i] = qtatVocalsMesParaules;
                 
             }
-                
+            puntFitxer.close();
         } 
         
         
