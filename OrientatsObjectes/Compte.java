@@ -24,11 +24,11 @@ public class Compte {
  
     //Mètodes GETTERs
     public String getTitular() {
-        return titular;
+        return this.titular;
     }
  
     public double getQuantitat() {
-        return quantitat;
+        return this.quantitat;
     }
 
     //Mètodes SETTERs
@@ -76,9 +76,9 @@ public class Compte {
     @Override
     public String toString() {
         return "El titular " 
-            + titular
+            + this.titular
             + " té "
-            + quantitat
+            + this.quantitat
             + " euros al seu compte";
     }
  

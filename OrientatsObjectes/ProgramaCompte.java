@@ -11,7 +11,7 @@ public class ProgramaCompte {
       System.out.print ("Entra el nom del primer titular: ");
       String nomPrimerTitular = teclat.next();
 
-      System.out.print ("Entra el nom del primer titular: ");
+      System.out.print ("Entra el nom del s titular: ");
       String nomSegonTitular = teclat.next();
 
 
