@@ -1,3 +1,13 @@
+| Exercici        | Estat           | Nota  |
+| ------------- |:-------------:| -----:|
+| EnfornsarLaFlota | ?? | ?? |
+| Biblioteca | ?? | ?? |
+| Persona  | ?? | ?? |
+| Cursa  | ?? | ?? |
+| ProgramaConversio  | ?? | ?? |
+
+
+
 # Enunciats i Solucions JAVA
 
 En aquest repositori aniré penjant les solucions als enunciats fets a classe.
