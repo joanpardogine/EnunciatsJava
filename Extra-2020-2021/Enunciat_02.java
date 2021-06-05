@@ -1,6 +1,8 @@
 package <CognomNom>;
 
 public class Enunciat_02 {
+   public final static String FIT_ENTRADA = "fitxers/NotesAlumne.txt";
+   public final static String FIT_SORTIDA = "fitxers/NotesDAW1.md";
 
    public final static String[] LINIES = {
       "**Mòduls de Primer de DAW de l'alumne:** ",
